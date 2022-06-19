@@ -23,6 +23,5 @@
 | SDA          | D11          |
 | SCK          | D13          |
 | CS           | D10          |
-| CS           | D10          |
 | LED+         | 3V3          |
 | LED-         | GND          |
