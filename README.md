@@ -12,6 +12,10 @@
 
 ![Tft Module](images/tft-module.jpg)
 
+3. Push button (salvaged from old electronics)
+
+4. 10k ohms resistor (for pull up to pin D2)
+
 ## Wiring
 
 | TFT Module   | Nano         |
