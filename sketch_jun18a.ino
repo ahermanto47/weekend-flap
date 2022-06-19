@@ -25,6 +25,13 @@
 // http://mrt-prodz.com
 // http://github.com/mrt-prodz/ATmega328-Flappy-Bird-Clone
 //
+// --------------------
+//
+// The Fix - AH
+//
+// Remove the inline drawPixel member and replace it with one from Adafruit ST7735
+// library. Replace Color565 with color565
+//
 // =============================================================================
 
 #include <Adafruit_GFX.h>
@@ -113,13 +120,6 @@ static struct PIPE {
 static short score;
 // temporary x and y var
 static short tmpx, tmpy;
-
-// ---------------
-// draw pixel
-// ---------------
-// faster drawPixel method by inlining calls and using setAddrWindow and pushColor
-// using macro to force inlining
-//#define drawPixel(a, b, c) TFT.setAddrWindow(a, b, a, b); TFT.pushColor(c)
 
 // ---------------
 // initial setup
