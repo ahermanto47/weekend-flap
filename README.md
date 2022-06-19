@@ -28,4 +28,4 @@
 
 ## Demo 
 
-[Demo](https://www.youtube.com/shorts/vXSLjxy5jdU)
+[![Weekend Flap](https://img.youtube.com/vi/vXSLjxy5jdU/0.jpg)](https://www.youtube.com/shorts/vXSLjxy5jdU "Weekend Flap")
